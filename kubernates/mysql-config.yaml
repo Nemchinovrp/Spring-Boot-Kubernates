@@ -39,6 +39,7 @@ kind: Secret
 metadata:
   name: db-root-credentials
 data:
+  username: cm9vdA==
   password: YWRtaW4xMjM=
 
 ---
