@@ -11,3 +11,7 @@ docker push nemchinovrp/springboot_kubernates:0.0.2
 Удаление конкретного образа - docker image rm -f <IMAGE_ID>
 
 Подключение к поду по ssh - "kubectl exec -it <pod-name> -n <namespace> -- bash"
+
+http://95.217.182.121:30163/api/connect - remote host
+
+http://95.217.182.121:30000/ - jenkins
