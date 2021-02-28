@@ -48,10 +48,10 @@ spec:
           - name: DB_USERNAME  # Setting Database username from Secret
             valueFrom:
               secretKeyRef:
-                name: db-root-credentials # Secret Name
+                name: db-credentials # Secret Name
                 key: username
           - name: DB_PASSWORD # Setting Database password from Secret
             valueFrom:
               secretKeyRef:
-                name: db-root-credentials
+                name: db-credentials
                 key: password
