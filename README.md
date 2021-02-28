@@ -5,7 +5,8 @@
 
 docker tag <IMAGE ID> nemchinovrp/springboot_kubernates:0.0.1
 
-docker push nemchinovrp/springboot_kubernates:0.0.1
+docker push nemchinovrp/springboot_kubernates:0.0.2
 
 
 Удаление всех образов - "docker system prune -a"
+Удаление конкретного образа - docker image rm -f <IMAGE_ID>
